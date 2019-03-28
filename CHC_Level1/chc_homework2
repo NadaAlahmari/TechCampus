@@ -1,1 +1,4 @@
 ما هي أهم المعلومات المطلوبة في مرحلة الفحص مع مثال على كل منها باستخدام اداة nmap ؟
+1- ACK Flag Probe : nmap -sA -O (IP)
+2- Full open scan : nmap -sT (IP)
+3- up/down : nmap -sP (IP)

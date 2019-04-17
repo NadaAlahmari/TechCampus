@@ -1,0 +1,9 @@
+1 what is the Desktop Interface used in Xubuntu ?
+> Xfce
+2 What command clears the contents of your terminal display?
+> clear
+4 create a Folder"folder1", go to it and create a file"New File ", and then Copy the File to the Desktop. ( write every command ).
+> cd Desktop
+> mkdir folder1
+> cd folder1
+> touch New_File.txt

@@ -1,0 +1,6 @@
+n_string = "I Love Python "
+
+reve_string =n_string[::-1]
+
+Print("The Normal Word",n_string)
+Print("The Reversed Word",reve_string)

@@ -1,0 +1,25 @@
+from tkinter import *
+
+top = Tk()
+top.title("Factorial")
+top.minsize(250,250)
+
+num1label = Label(text="Enter the Number")
+num1label.pack()
+num1box= Entry()
+num1box.pack()
+
+
+def factnum():
+	num1 = num1box.get()
+	result = num1*factnum*(num1-1)
+	resutlabel = label(text="The result is "+ str(result))
+	resutlabel.pack()
+
+but= Button(text= "Factorial",command= factnum)
+but.pack() 
+
+
+
+
+top.mainloop()
